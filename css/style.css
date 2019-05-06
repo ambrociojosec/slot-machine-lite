@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 12px outset grey;
+	margin: 0;
+
+}
+
+.box1 {
+	background-color: red;
+	height: 222px;
+	width: 351px;
+}
+
+.box2 {
+	background-color: blue;
+	height: 222px;
+	width: 351px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.box3 {
+	background-color: white;
+	height: 222px;
+	width: 351px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wheelLeft, .wheelMiddle, .wheelRight {
+	height: 150px;
+	width: 100px;
+	border: 6px inset white;
+	background-color: whitesmoke;
+}
+
+.playButton {
+	font-size: 10vmin;
+	background-color: green;
+	border: 6px outset grey;
+	border-radius: 12px;
+	letter-spacing: 1vmin;
+}
