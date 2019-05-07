@@ -55,6 +55,11 @@ section {
 	font-size: 10vmin;
 	background-color: green;
 	border: 6px outset grey;
-	border-radius: 12px;
+	border-radius: 50px;
 	letter-spacing: 1vmin;
+}
+
+button:hover {
+	background-color: red;
+
 }
