@@ -1,10 +1,9 @@
 /*----- constants -----*/
 var images = {
-	0: 'images/ga.png',
-	2: 'images/github.png',
-	3: 'imges/slack.png'
+	img1: 'images/ga.png',
+	img2: 'images/github.png',
+	img3: 'imges/slack.png',
 }
-
 
 var inPlay;
 
@@ -26,12 +25,6 @@ btn.addEventListener('click', play);
 /*----- functions -----*/
 init();
 
-// function that will distribute a deck of cards evenly into 3 arrays (the 3 different slots)
-
-
-// function that randomly pick a card on each array
-
-// function that will compare the 3 cards chosen to see if there's a match or not
 function compare() {
 }
 
@@ -51,32 +44,19 @@ function play(event) {
 function render() {
 	if (!isPlay) {
 	for(var i = 0; i < 3; i++){
-		var num = Math.floor(Math.random() * 100);
+		var num = Math.floor(Math.random() * 3);
 		initialSlot.push(num);
-		console.log(initialSlot)
 	}
 
 	for (var i = 0; i < 3; i++){
 		if(initialSlot[i] == 0){
-			
 		}
-		// if(){
-			
-		// }
-		// if(){
-			
-		// }
 	}
-	// textContent and innerhtml
-		slotOne.textContent = initialSlot[0];
+		slotOne.innerHTML = initialSlot[0];
 		slotTwo.textContent = initialSlot[1];
 		slotThree.textContent = initialSlot[2];
 	init()
-
 	}
-	// adding images
-	// slotTwo.src = `${images.one}`
-	// slotThree.src = `${images.one}`
 }
 
 function init() {

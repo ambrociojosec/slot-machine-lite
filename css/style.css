@@ -3,7 +3,7 @@
 }
 
 body {
-	height: 50vh;
+	height: 75vh;
 	display: grid;
 	align-items: center;
 	justify-content: center;
@@ -24,8 +24,10 @@ section {
 	background-color: transparent;
 	color: black;
 	text-align: center;
+	justify-content: center;
 	border-radius: 50% / 10%;
 	border: 10px solid #021502;
+	font-size: 65px;
 }
 
 .box2 {
@@ -37,6 +39,7 @@ section {
 	width: 351px;
 	align-items: center;
 	justify-content: space-around;
+	text-align: center;
 }
 
 .box3 {
@@ -53,6 +56,8 @@ section {
 	width: 100px;
 	border: 6px inset #021502;
 	background-color: whitesmoke;
+	font-size: 72px;
+	text-align: center;
 }
 
 .playButton {
@@ -65,5 +70,4 @@ section {
 
 button:hover {
 	background-color:red;
-
 }
