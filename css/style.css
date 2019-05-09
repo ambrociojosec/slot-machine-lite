@@ -3,8 +3,7 @@
 }
 
 body {
-
-	height: 100vh;
+	height: 50vh;
 	display: grid;
 	align-items: center;
 	justify-content: center;
@@ -17,49 +16,54 @@ section {
 	align-items: center;
 	justify-content: center;
 	margin: 0;
-
 }
 
 #box1 {
-	background-color: transparent;
-	height: 222px;
 	width: 351px;
+	height: 150px;
+	background-color: transparent;
+	color: black;
+	text-align: center;
+	border-radius: 50% / 10%;
+	border: 10px solid #021502;
 }
 
 .box2 {
-	background-color: transparent;
-	height: auto;
-	width: 351px;
 	display: flex;
+	background-color: transparent;
+	border-radius: 50% / 10%;
+	border: 10px solid #021502;
+	height: 200px;
+	width: 351px;
 	align-items: center;
 	justify-content: space-around;
 }
 
 .box3 {
 	background-color: transparent;
-	height: auto;
+	height: 100px;
 	width: 351px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.wheelLeft, .wheelMiddle, .wheelRight {
-	height: auto;
+.left, .middle, .right {
+	height: 100px;
 	width: 100px;
-	border: 6px inset white;
+	border: 6px inset #021502;
 	background-color: whitesmoke;
 }
 
 .playButton {
-	font-size: 10vmin;
+	font-size: 5vmin;
 	background-color: green;
 	border: 6px outset grey;
-	border-radius: 50px;
+	border-radius: 12px;
 	letter-spacing: 1vmin;
 }
 
 button:hover {
-	background-color: red;
+	background-color:red;
 
 }
