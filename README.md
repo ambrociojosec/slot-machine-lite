@@ -1,5 +1,5 @@
 #SLOT MACHINE GAME
-_______________________________
+---
 
 A minimal digital casino gambling game written in JavaScript that picks a random number in each reel.  
 
@@ -8,3 +8,12 @@ A minimal digital casino gambling game written in JavaScript that picks a random
 
 Read more about the history of [Slot Machine or Fruit Machine Here!](https://en.wikipedia.org/wiki/Slot_machine)
 
+---
+SCREEN SHOOT
+
+
+---
+
+####Technologies Used
+---
+| JavaScript  |  HTML  |  CSS  |
