@@ -9,14 +9,21 @@ var inPlay;
 
 /*----- app's state (variables) -----*/
 var initialSlot;
-//wins and loses
-
 
 /*----- cached element references -----*/
 var slotOne = document.getElementById('slotOne')
 var slotTwo = document.getElementById('slotTwo')
 var slotThree = document.getElementById('slotThree')
 var msg = document.getElementById('box1')
+var isBlack = false
+setInterval(function() {
+	if (isBlack) {
+		msg.style.color = "white";
+	} else {
+		msg.style.color = "#016b5d";
+	}
+	isBlack = !isBlack;
+}, 1000);
 
 /*----- event listeners -----*/
 var btn = document.querySelector('button')
